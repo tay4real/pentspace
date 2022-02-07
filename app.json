@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "pentspace",
+    "name": "Pentspace",
     "slug": "pentspace",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Pictures/pentspace-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Pictures/pentspace-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +17,22 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.pentspace.app",
+      "buildNumber": "1.0.2",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.pentspace.app",
+      "versionCode": 3,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Pictures/pentspace-logo.png",
         "backgroundColor": "#FFFFFF"
       }
     },
+   
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/Pictures/pentspace-logo.png"
+    },
+    "description": ""
   }
 }
